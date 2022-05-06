@@ -127,6 +127,8 @@ def get_pins_knocked(firstRoll=0):
 # still_playing is a function that ascertains whether the user
 # wants to continue
 # -------------------------------------------------------------
+
+
 def still_playing(name):
     while True:
         answer = input(
@@ -143,6 +145,8 @@ def still_playing(name):
 # tally_score is a function that calculates the players final
 # score based upon there rolls
 # -------------------------------------------------------------
+
+
 def tally_score(roll_scores: list):
     total_score = 0
     rolls = 0
